@@ -15,12 +15,13 @@ name1 = "Priyanka sahoo"
 console.log(myName);
 console.log(name1);
 
+//Heap
 let userOne = {
     email : "priyanka@gmail.com",
     upi : "priyanka@paytm"
 }
 
 let userTwo = userOne
-//Heap
+
 userTwo.email = "sahoo@gmail.com"
 console.log(userOne.email);

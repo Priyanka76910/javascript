@@ -44,11 +44,6 @@ for(let key in student){
 //    console.log(student[key]); 
 }
 
-// Template Literals 
-// String Interpolation -  A way to have embedded expressions in Strings
-let sentence = `This is a template literal ${1+3}`;
-// console.log(sentence);
-
 //Escape Characters we use to give next line (\n) and it's length never count as 2 although it's 2 character it's calculating as 1 character.
 // String Methods
 let a = "jkMNl  l   ";
