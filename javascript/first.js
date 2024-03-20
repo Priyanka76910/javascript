@@ -89,3 +89,7 @@ console.log("1" + 2);
 console.log(1 + "2");
 console.log("1"+2+2);
 console.log(1+2+"2");
+
+// === Strict check
+console.log("2" == 2); //Bcz here it didn't check properly
+console.log("2" === 2);
