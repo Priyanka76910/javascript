@@ -67,8 +67,25 @@ let valueInNumber = Number(score);
 
 let isLogIn =1;
 let booleanIsLogIN = Boolean(isLogIn)
-console.log(booleanIsLogIN);
+// console.log(booleanIsLogIN);
 
 //   1 => true; 0 => false
 //   "" - false
 //   "abc" - false
+
+//  ************************* Operations *********************
+let value = 3
+let negValue = -value
+// console.log(negValue);
+// console.log(2 ** 3); // We will get power value here 
+
+let str1 = "Hello"
+let str2 = "  Priyanka"
+
+let str3 = str2+str1 // Check with str1+ str2
+// console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1"+2+2);
+console.log(1+2+"2");
