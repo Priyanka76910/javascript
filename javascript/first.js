@@ -1,24 +1,24 @@
 // Print 1 to 5 (FOR Loop)
 
-// let print = "Priyanka";
-// for(let i=0; i<5; i++){
-//     console.log(print);
-// }
+let print = "Priyanka";
+for(let i=0; i<5; i++){
+    // console.log(print);
+}
 
 // WHILE Loop
-// let i=1;
-// while (i<5) {
+let i=1;
+while (i<5) {
 // console.log("i" , i);
-// i++;
-// }
+i++;
+}
 
 // Sum of 5 digit
 
-// let sum =0;
-// for(let i=1; i<=6; i++){
+let sum =0;
+for(let i=1; i<=6; i++){
     
-//     sum = sum+i;
-// }
+    sum = sum+i;
+}
 // console.log(sum);
 
 
@@ -29,10 +29,10 @@ let size = 0;
 
 let str = "PriyankA";
 for(let i of str){
-    console.log(i);
+    // console.log(i);
     size++;
 }
-console.log(size);
+// console.log(size);
 
 // FOR-in-Loop  -- Use for Objects/ Arrays
 let student = {
@@ -41,15 +41,34 @@ let student = {
     isPass : true
 };
 for(let key in student){
-   console.log(student[key]); 
+//    console.log(student[key]); 
 }
 
 // Template Literals 
 // String Interpolation -  A way to have embedded expressions in Strings
 let sentence = `This is a template literal ${1+3}`;
-console.log(sentence);
+// console.log(sentence);
 
 //Escape Characters we use to give next line (\n) and it's length never count as 2 although it's 2 character it's calculating as 1 character.
 // String Methods
 let a = "jkMNl  l   ";
-console.log(a.toLowerCase(), a.toUpperCase(),a.trim() );
+// console.log(a.toLowerCase(), a.toUpperCase(),a.trim() );
+
+
+/*console.log(typeof null); // Output will be Object
+console.log(typeof undefined); //Output will be Undefined */
+
+// How to change String value to Number
+
+let score = "33" // If we type here Null then output will be 0 and NaN for undefined and string
+// console.log(typeof score);
+let valueInNumber = Number(score);
+// console.log(typeof valueInNumber);
+
+let isLogIn =1;
+let booleanIsLogIN = Boolean(isLogIn)
+console.log(booleanIsLogIN);
+
+//   1 => true; 0 => false
+//   "" - false
+//   "abc" - false
